@@ -9,7 +9,7 @@ function page() {
     <div className=''>
 
       <Container>
-        <PageTitle title="Find Rentals In Your Area That Fit Your Budget" subName="Home" />
+        <PageTitle title="Find Rentals In Your Area That Fit Your Budget" subName="Home"  />
         <Row>
           <PropertiesData />
         </Row>

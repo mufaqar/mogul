@@ -31,11 +31,11 @@ const SignIn = () => {
 
   const { loading, login, control } = useSignIn()
   return (
-    <div className="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5">
+    <div className="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5 bg-white min-vh-100">
       <Container>
         <Row className="justify-content-center">
           <Col xl={5}>
-            <Card className="auth-card">
+            <Card className="auth-card" style={{ boxShadow: '0 0 20px rgba(0, 0, 0, 0.3)' }}>
               <CardBody className="px-3 py-5">
                 <div className="mx-auto mb-4 text-center auth-logo">
                   <Link href="/dashboards/analytics" className="logo-dark">

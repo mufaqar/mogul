@@ -118,7 +118,7 @@ const PropertiesData = async () => {
         </Row>
         <div className="p-3 border-top">
           <nav aria-label="Page navigation example">
-            <ul className="pagination justify-content-end mb-0">
+            <ul className="pagination justify-content-center mb-0">
               <li className="page-item">
                 <Link className="page-link" href="">
                   Previous

@@ -1,10 +1,11 @@
-'use client'; // Required for Next.js 13+ when using interactivity
+'use client';
 
 import React from 'react';
 import dynamic from 'next/dynamic';
 import { Container, Nav, Button } from 'react-bootstrap';
 import Image from 'next/image';
-import logoDark from '@/assets/images/logo-light.png'
+import logoDark from '@/assets/images/logo-light.png';
+
 // Dynamically import Navbar components to avoid SSR issues
 const Navbar = dynamic(
   () => import('react-bootstrap').then((mod) => mod.Navbar),
@@ -27,48 +28,54 @@ const NavbarCollapse = dynamic(
 );
 
 function MainHeader() {
-
-
   return (
-     <Navbar bg="light" expand="lg" className="sticky-top">
+    <Navbar bg="black" expand="lg" className="sticky-top">
       <Container>
         {/* Logo on the left */}
-        <NavbarBrand href="/">
-          <Image alt="Logo" width={112} height={24} src={logoDark} style={{ height: '6%', width: 'auto' }} priority />
+        <NavbarBrand href="/dashboards/analytics" className="text-white">
+          <Image 
+            alt="Logo" 
+            width={112} 
+            height={24} 
+            src={logoDark} 
+            style={{ height: '6%', width: 'auto' }} 
+            priority 
+          />
         </NavbarBrand>
 
         {/* Mobile toggle button */}
-        <NavbarToggle aria-controls="basic-navbar-nav" className="border-0">
+        <NavbarToggle aria-controls="basic-navbar-nav" className="border-0 text-white">
           <span className="navbar-toggler-icon"></span>
         </NavbarToggle>
 
         {/* Navigation menu */}
         <NavbarCollapse id="basic-navbar-nav" className="justify-content-end">
           <Nav as="ul" className="align-items-center">
-            {/* 5 navigation links */}
+            {/* Navigation links */}
             <Nav.Item as="li">
-              <Nav.Link href="/Tenants" className="px-3 fw-medium">Tenants</Nav.Link>
+              <Nav.Link href="/Tenants" className="px-3 fw-medium text-white">Tenants</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/Rentals" className="px-3 fw-medium">Rentals</Nav.Link>
+              <Nav.Link href="/Rentals" className="px-3 fw-medium text-white">Rentals</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/Landlords" className="px-3 fw-medium">Landlords</Nav.Link>
+              <Nav.Link href="/Landlords" className="px-3 fw-medium text-white">Landlords</Nav.Link>
             </Nav.Item>
-        
 
-            {/* 1 CTA button */}
+            {/* CTA button */}
             <Nav.Item as="li" className="ms-lg-3 mt-3 mt-lg-0">
               <Button 
                 variant="primary" 
-                className="px-4 py-2 fw-medium rounded"
-                href="/get-started"
+                className="px-4 py-2 fw-medium rounded text-white"
+                href="/auth/sign-up"
               >
-                SING UP
+                SIGN UP
               </Button>
             </Nav.Item>
-                <Nav.Item as="li">
-              <Nav.Link href="/Sign In" className="px-3 fw-medium">Sign In</Nav.Link>
+            
+            {/* Sign In link */}
+            <Nav.Item as="li">
+              <Nav.Link href="/auth/sign-in" className="px-3 fw-medium text-white">Sign In</Nav.Link>
             </Nav.Item>
           </Nav>
         </NavbarCollapse>
