@@ -9,9 +9,9 @@ export const metadata: Metadata = { title: 'Listing Grid' }
 const PropertyGridPage = () => {
   return (
     <>
-      <PageTitle title="Listing Grid" subName="Real Estate" />
+      <PageTitle title="Listing Listing" subName="Real Estate" />
       <Row>
-        <PropertiesFilter />
+        {/* <PropertiesFilter /> */}
         <PropertiesData />
       </Row>
     </>
