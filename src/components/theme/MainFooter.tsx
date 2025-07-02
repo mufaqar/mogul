@@ -1,23 +1,40 @@
-import Link from 'next/link'
-import React from 'react'
+'use client';
+
+import React from 'react';
+import Link from 'next/link';
+import { Container, Row, Col, Nav } from 'react-bootstrap';
 
 function MainFooter() {
   return (
-    <footer className="bg-gray-300 py-8">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-800">
-        {/* Left: Navigation Links */}
-        <div className="flex flex-wrap gap-4 mb-2 md:mb-0 text-purple-600 font-medium">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/privacy">Privacy</Link>
-          <Link href="/terms">Terms</Link>
-        </div>
+    <footer className="bg-light py-4 border-top">
+      <Container>
+        <Row className="justify-content-between align-items-center">
+          {/* Left: Navigation Links */}
+          <Col xs={12} md="auto" className="mb-3 mb-md-0">
+            <Nav className="flex-wrap gap-3">
+              <Nav.Item>
+                <Link href="/" className="nav-link text-primary fw-medium p-0">Home</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link href="/about" className="nav-link text-primary fw-medium p-0">About</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link href="/privacy" className="nav-link text-primary fw-medium p-0">Privacy</Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Link href="/terms" className="nav-link text-primary fw-medium p-0">Terms</Link>
+              </Nav.Item>
+            </Nav>
+          </Col>
 
-        {/* Right: Copyright */}
-        <div className="text-gray-700 text-sm">© MOGUL 2025</div>
-      </div>
+          {/* Right: Copyright */}
+          <Col xs={12} md="auto">
+            <div className="text-muted small">© MOGUL 2025</div>
+          </Col>
+        </Row>
+      </Container>
     </footer>
-  )
+  );
 }
 
-export default MainFooter
+export default MainFooter;

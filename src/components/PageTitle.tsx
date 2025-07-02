@@ -7,8 +7,8 @@ const PageTitle = ({ title, subName }: { title: string; subName: string }) => {
     <Row>
       <Col xs={12}>
         <div className="page-title-box">
-          <h4 className="mb-0 fw-semibold">{title}</h4>
-          <ol className="breadcrumb mb-0">
+          <h4 className="mb-0 fw-semibold ">{title}</h4>
+          {/* <ol className="breadcrumb mb-0">
             <li className="breadcrumb-item">
               <Link href="">{subName}</Link>
             </li>{' '}
@@ -16,7 +16,7 @@ const PageTitle = ({ title, subName }: { title: string; subName: string }) => {
             <IconifyIcon width={22} height={21} icon="ri:arrow-drop-right-line" />
             &nbsp;
             <li className="breadcrumb-item active">{title}</li>
-          </ol>
+          </ol> */}
         </div>
       </Col>
     </Row>

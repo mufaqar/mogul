@@ -8,6 +8,7 @@ import '@/assets/scss/app.scss'
 import { DEFAULT_PAGE_TITLE } from '@/context/constants'
 import MainHeader from '@/components/theme/MainHeader'
 import MainFooter from '@/components/theme/MainFooter'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const figtree = Figtree({
   subsets: ['latin'],
