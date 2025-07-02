@@ -9,7 +9,7 @@ export const metadata: Metadata = { title: 'Listing Grid' }
 const PropertyGridPage = () => {
   return (
     <>
-      <PageTitle title="Listing Listing" subName="Real Estate" />
+      <PageTitle title="Listing Listing" subName="Mogul  Estate" />
       <Row>
         {/* <PropertiesFilter /> */}
         <PropertiesData />
