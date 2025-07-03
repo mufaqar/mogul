@@ -1,6 +1,6 @@
 import { Button, Card, CardBody, CardTitle, Col, Row } from 'react-bootstrap'
 import UIExamplesList from '@/components/UIExamplesList'
-import AllSwiper from './AllSwiper'
+//import AllSwiper from './AllSwiper'
 import type { Metadata } from 'next'
 import PageTitle from '@/components/PageTitle'
 
@@ -23,7 +23,7 @@ const Swiper = () => {
               <p className="text-muted mb-3">Swiper is the most modern slider with hardware accelerated transitions and amazing native behavior.</p>
             </CardBody>
           </Card>
-          <AllSwiper />
+          {/* <AllSwiper /> */}
         </Col>
         <Col xl={3}>
           <UIExamplesList
