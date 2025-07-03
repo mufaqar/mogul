@@ -15,7 +15,6 @@ import Image from 'next/image'
 import logoDark from '@/assets/images/logo-light.png'
 import MailBox from './components/mailBox'
 
-
 const page = () => {
   return (
     <header>
@@ -24,14 +23,13 @@ const page = () => {
           <div className="navbar-header">
             <div className="d-flex align-items-center gap-2">
               {/* edit_mufaqar */}
-              {/* <LeftSideBarToggle />
+              <LeftSideBarToggle />
               <form className="app-search d-none d-md-block me-auto">
                 <div className="position-relative">
                   <input type="search" className="form-control border-0" placeholder="Search..." autoComplete="off" />
                   <IconifyIcon icon="ri:search-line" className=" search-widget-icon" />
                 </div>
-              </form> */}
-
+              </form>
             </div>
             <div className="d-flex align-items-center gap-1">
               <nav className="navbar navbar-expand-lg ">
@@ -63,7 +61,6 @@ const page = () => {
 
               <Notifications />
               <MailBox />
-
 
               {/* <a href="/mail">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-envelope" viewBox="0 0 16 16">

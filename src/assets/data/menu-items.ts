@@ -10,59 +10,94 @@ export const MENU_ITEMS: MenuItemType[] = [
     key: 'dashboards',
     label: 'Dashboards',
     icon: 'ri:dashboard-2-line',
+    url: '/dashboards/analytics',
+    // children: [
+    //   {
+    //     key: 'analytics',
+    //     label: 'Analytics',
+    //     url: '/dashboards/analytics',
+    //     parentKey: 'dashboards',
+    //   },
+    // {
+    //   key: 'agent',
+    //   label: 'Agent',
+    //   url: '/dashboards/agent',
+    //   parentKey: 'dashboards',
+    // },
+    // {
+    //   key: 'customer',
+    //   label: 'Customer',
+    //   url: '/dashboards/customer',
+    //   parentKey: 'dashboards',
+    // },
+    // ],
+  },
+  {
+    key: 'All Units',
+    label: 'All Units',
+    icon: 'ri:dashboard-2-line',
+    url: '/dashboards/analytics',
     children: [
       {
-        key: 'analytics',
-        label: 'Analytics',
+        key: 'Add Unit',
+        label: 'Add Unit',
         url: '/dashboards/analytics',
         parentKey: 'dashboards',
       },
-      // {
-      //   key: 'agent',
-      //   label: 'Agent',
-      //   url: '/dashboards/agent',
-      //   parentKey: 'dashboards',
-      // },
-      // {
-      //   key: 'customer',
-      //   label: 'Customer',
-      //   url: '/dashboards/customer',
-      //   parentKey: 'dashboards',
-      // },
+      {
+        key: 'View Units',
+        label: 'View Units',
+        url: '/dashboards/agent',
+        parentKey: 'dashboards',
+      },
     ],
   },
+  {
+    key: 'Application',
+    label: 'Application',
+    url: '/pages/timeline',
+    icon: 'ri:dashboard-2-line',
+    parentKey: 'pages',
+  },
+  {
+    key: 'Lease',
+    label: 'Lease',
+    url: '/pages/timeline',
+    icon: 'ri:dashboard-2-line',
+    parentKey: 'pages',
+  },
+  {
+    key: 'Maintenance',
+    label: 'Maintenance',
+    url: '/pages/timeline',
+    icon: 'ri:dashboard-2-line',
+    parentKey: 'pages',
+  },
 
- 
   {
     key: 'property',
     label: 'Property',
     icon: 'ri:community-line',
-    children: [
-      {
-        key: 'property-grid',
-        label: 'Property Listing',
-        url: '/property/grid',
-        parentKey: 'property',
-      },
-      // {
-      //   key: 'property-list',
-      //   label: 'Property List',
-      //   url: '/property/list',
-      //   parentKey: 'property',
-      // },
-      // {
-      //   key: 'property-details',
-      //   label: 'Property Details',
-      //   url: '/property/details',
-      //   parentKey: 'property',
-      // },
-      // {
-      //   key: 'add-property',
-      //   label: 'Add Property',
-      //   url: '/property/add',
-      //   parentKey: 'property',
-      // },
-    ],
+    url: '/property/grid',
+
+    // {
+    //   key: 'property-list',
+    //   label: 'Property List',
+    //   url: '/property/list',
+    //   parentKey: 'property',
+    // },
+    // {
+    //   key: 'property-details',
+    //   label: 'Property Details',
+    //   url: '/property/details',
+    //   parentKey: 'property',
+    // },
+    // {
+    //   key: 'add-property',
+    //   label: 'Add Property',
+    //   url: '/property/add',
+    //   parentKey: 'property',
+    // },
   },
   // {
   //   key: 'agents',
@@ -126,24 +161,14 @@ export const MENU_ITEMS: MenuItemType[] = [
   //     },
   //   ],
   // },
+
   {
-    key: 'orders',
-    label: 'Orders',
-    icon: 'ri:home-office-line',
-    url: '/orders',
-  },
-  {
-    key: 'transactions',
-    label: 'Transactions',
+    key: 'Payments',
+    label: 'Payments',
     icon: 'ri:arrow-left-right-line',
     url: '/transactions',
   },
-  {
-    key: 'reviews',
-    label: 'Reviews',
-    icon: 'ri:chat-quote-line',
-    url: '/reviews',
-  },
+
   // {
   //   key: 'messages',
   //   label: 'Messages',

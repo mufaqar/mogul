@@ -12,14 +12,14 @@ export const metadata: Metadata = { title: 'Analytics' }
 const AnalyticsPage = () => {
   return (
     <>
-      <PageTitle title="Analytics" subName="Dashboard" />
+      <PageTitle title="All Locations" subName="Dashboard" />
       <Statistics />
       <Row>
         <SalesChart />
         <BalanceCard />
       </Row>
       <SocialSource />
-      <Transaction />
+      
     </>
   )
 }
