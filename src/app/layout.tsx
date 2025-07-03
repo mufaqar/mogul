@@ -66,7 +66,7 @@ export default function RootLayout({
         <style suppressHydrationWarning>{splashScreenStyles}</style>
       </head>
       <body className={figtree.className}>
-        <MainHeader />
+        {/* <MainHeader /> */}
         <div id="splash-screen">
           <Image alt="Logo" width={112} height={24} src={logoDark} style={{ height: '6%', width: 'auto' }} priority />
         </div>
@@ -75,7 +75,7 @@ export default function RootLayout({
           <AppProvidersWrapper>{children}</AppProvidersWrapper>
         </div>
 
-       <MainFooter />
+       {/* <MainFooter /> */}
       </body>
     </html>
   )

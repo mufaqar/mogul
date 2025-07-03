@@ -168,6 +168,7 @@ const AppMenu = ({ menuItems }: AppMenuProps) => {
 
   return (
     <ul className="navbar-nav">
+      
       {(menuItems || []).map((item, idx) => {
         return (
           <Fragment key={item.key + idx}>
