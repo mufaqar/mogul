@@ -7,7 +7,7 @@ interface PageTitleProps {
 
 const PageTitle = ({ title, subName }: PageTitleProps) => {
   return (
-    <Row className="justify-content-center mt-4">
+    <Row className="">
       <Col xs={10} md={10} className="text-center">
         <div className="page-title-box">
           <h4 className="mb-1 fw-semibold" style={{ fontSize: '40px' }}>{title}</h4>
