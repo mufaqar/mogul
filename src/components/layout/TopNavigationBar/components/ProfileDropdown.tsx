@@ -24,24 +24,24 @@ const ProfileDropdown = () => {
           Welcome Gaston!
         </DropdownHeader>
         <DropdownItem as={Link} href="/profile">
-          <IconifyIcon icon="solar:calendar-broken" className="align-middle me-2 fs-18" />
-          <span className="align-middle">My Schedules</span>
+          <IconifyIcon icon="material-symbols:person" className="align-middle me-2 fs-18" />
+          <span className="align-middle">My Profile</span>
         </DropdownItem>
-        <DropdownItem as={Link} href="/pages/pricing">
+        {/* <DropdownItem as={Link} href="/pages/pricing">
           <IconifyIcon icon="solar:wallet-broken" className="align-middle me-2 fs-18" />
           <span className="align-middle">Pricing</span>
-        </DropdownItem>
+        </DropdownItem> */}
         <DropdownItem as={Link} href="/support/faqs">
-          <IconifyIcon icon="solar:help-broken" className="align-middle me-2 fs-18" />
-          <span className="align-middle">Help</span>
+          <IconifyIcon icon="material-symbols:settings" className="align-middle me-2 fs-18" />
+          <span className="align-middle">Settings</span>
         </DropdownItem>
-        <DropdownItem as={Link} href="/auth/lock-screen">
+        {/* <DropdownItem as={Link} href="/auth/lock-screen">
           <IconifyIcon icon="solar:lock-keyhole-broken" className="align-middle me-2 fs-18" />
           <span className="align-middle">Lock screen</span>
-        </DropdownItem>
+        </DropdownItem> */}
         <div className="dropdown-divider my-1" />
-        <DropdownItem as={Link} className=" text-danger" href="/auth/sign-in">
-          <IconifyIcon icon="solar:logout-3-broken" className="align-middle me-2 fs-18" />
+        <DropdownItem as={Link} className="text-dange" href="/auth/sign-in">
+          <IconifyIcon icon="material-symbols:logout" className="align-middle me-2 fs-18" />
           <span className="align-middle">Logout</span>
         </DropdownItem>
       </DropdownMenu>

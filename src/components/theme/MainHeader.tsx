@@ -53,20 +53,20 @@ function MainHeader() {
           <Nav as="ul" className="align-items-center">
             {/* Navigation links */}
             <Nav.Item as="li">
-              <Nav.Link href="/Tenants" className="px-3 fw-medium text-white">Tenants</Nav.Link>
+              <Nav.Link href="/Tenants" className="px-3 fw-bold text-white">Tenants</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/Rentals" className="px-3 fw-medium text-white">Rentals</Nav.Link>
+              <Nav.Link href="/Rentals" className="px-3 fw-bold text-white">Rentals</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/Landlords" className="px-3 fw-medium text-white">Landlords</Nav.Link>
+              <Nav.Link href="/Landlords" className="px-3 fw-bold text-white">Landlords</Nav.Link>
             </Nav.Item>
 
             {/* CTA button */}
             <Nav.Item as="li" className="ms-lg-3 mt-3 mt-lg-0">
               <Button 
-                variant="primary" 
-                className="px-4 py-2 fw-medium rounded text-white"
+                variant="" 
+                className="px-4 py-2 fw-bold rounded text-black bg-white"
                 href="/auth/sign-up"
               >
                 SIGN UP
