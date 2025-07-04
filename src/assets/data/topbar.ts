@@ -1,6 +1,6 @@
-import avatar1 from '/public/assets/images/users/avatar-1.jpg'
-import avatar3 from '/public/assets/images/users/avatar-3.jpg'
-import avatar5 from '/public/assets/images/users/avatar-5.jpg'
+import avatar1 from '../../../public/assets/images/users/avatar-1.jpg'
+import avatar3 from '../../../public/assets/images/users/avatar-3.jpg'
+import avatar5 from '../../../public/assets/images/users/avatar-5.jpg'
 import { NotificationType } from '@/types/data'
 
 export const notificationsData: NotificationType[] = [
