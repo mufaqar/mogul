@@ -6,8 +6,6 @@ import Image from 'next/image'
 import NextTopLoader from 'nextjs-toploader'
 import '@/assets/scss/app.scss'
 import { DEFAULT_PAGE_TITLE } from '@/context/constants'
-import MainHeader from '@/components/theme/MainHeader'
-import MainFooter from '@/components/theme/MainFooter'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const figtree = Figtree({
@@ -18,10 +16,10 @@ const figtree = Figtree({
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Lahomes Nextjs - Real Estate Management Admin Template',
+    template: '%s | Mogul  - AI Rental Services for Tanants and LandLords',
     default: DEFAULT_PAGE_TITLE,
   },
-  description: 'A fully responsive premium admin dashboard template, Real Estate Management Admin Template',
+  description: 'A fully responsive premium admin dashboard template, AI Rental Services for Tanents and LandLords',
 }
 
 const splashScreenStyles = `
