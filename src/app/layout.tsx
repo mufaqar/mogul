@@ -54,7 +54,6 @@ const splashScreenStyles = `
   }
 }
 `
-
 export default function RootLayout({
   children,
 }: Readonly<{
