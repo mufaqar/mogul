@@ -10,11 +10,7 @@ export const metadata: Metadata = { title: 'Application' }
 const CenteredTimeline = ({ timeline }: { timeline: TimelineType }) => {
   return (
     <div className="timeline">
-      {Object.keys(timeline).map((day, idx) => {
-        return (
-          <p>Application Page</p>
-        )
-      })}
+      <p>Application Page</p>
     </div>
   )
 }

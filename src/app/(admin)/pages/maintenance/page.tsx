@@ -9,12 +9,8 @@ export const metadata: Metadata = { title: 'maintenance' }
 
 const CenteredTimeline = ({ timeline }: { timeline: TimelineType }) => {
   return (
-    <div className="timeline">
-      {Object.keys(timeline).map((day, idx) => {
-        return (
-          <p>maintenance Page</p>
-        )
-      })}
+    <div className="maintenance">
+      <p>maintenance Page</p>
     </div>
   )
 }
