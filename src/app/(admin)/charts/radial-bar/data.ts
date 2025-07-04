@@ -1,4 +1,4 @@
-import small2 from '@/assets/images/small/img-2.jpg'
+import small2 from '/public/assets/images/small/img-2.jpg'
 import { type ApexOptions } from 'apexcharts'
 
 export const basicRadialBarOpts: ApexOptions = {

@@ -21,7 +21,7 @@ import Chat from './Chat'
 import Contact from './Contact'
 import Group from './Group'
 
-import avatar1 from '@/assets/images/users/avatar-1.jpg'
+import avatar1 from '/public/assets/images/users/avatar-1.jpg'
 
 import Image from 'next/image'
 import Link from 'next/link'

@@ -1,4 +1,4 @@
-import properties1 from '@/assets/images/properties/p-1.jpg'
+import properties1 from '/public/assets/images/properties/p-1.jpg'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import { currency } from '@/context/constants'
 import Image from 'next/image'

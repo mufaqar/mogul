@@ -1,6 +1,6 @@
 'use client'
-import logoDark from '@/assets/images/logo-dark.png'
-import LogoLight from '@/assets/images/logo-light.png'
+import logoDark from '/public/assets/images/logo-dark.png'
+import LogoLight from '/public/assets/images/logo-light.png'
 import TextFormInput from '@/components/from/TextFormInput'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import { yupResolver } from '@hookform/resolvers/yup'

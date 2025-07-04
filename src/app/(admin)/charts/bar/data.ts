@@ -1,6 +1,6 @@
 import type { ApexOptions } from 'apexcharts'
 
-import small4 from '@/assets/images/small/img-4.jpg'
+import small4 from '/public/assets/images/small/img-4.jpg'
 export const basicChartOpts: ApexOptions = {
   chart: {
     height: 380,

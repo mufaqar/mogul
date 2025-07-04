@@ -1,5 +1,5 @@
-import smallImg from '@/assets/images/small/img-3.jpg'
-import avatar1 from '@/assets/images/users/avatar-8.jpg'
+import smallImg from '/public/assets/images/small/img-3.jpg'
+import avatar1 from '/public/assets/images/users/avatar-8.jpg'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import Image from 'next/image'
 import Link from 'next/link'

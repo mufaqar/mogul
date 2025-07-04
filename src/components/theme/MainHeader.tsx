@@ -4,7 +4,7 @@ import React from 'react';
 import dynamic from 'next/dynamic';
 import { Container, Nav, Button, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle } from 'react-bootstrap';
 import Image from 'next/image';
-import logoDark from '@/assets/images/logo-light.png';
+import logoDark from '/public/assets/images/logo-light.png';
 
 // Dynamically import Navbar components to avoid SSR issues
 // const Navbar = dynamic(

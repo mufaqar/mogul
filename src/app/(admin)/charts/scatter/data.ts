@@ -1,7 +1,7 @@
 import { type ApexOptions } from 'apexcharts'
 
-import dribbble from '@/assets/images/brands/dribbble.svg'
-import github from '@/assets/images/brands/github.svg'
+import dribbble from '/public/assets/images/brands/dribbble.svg'
+import github from '/public/assets/images/brands/github.svg'
 
 function generateDayWiseTimeSeries(baseval: number, count: number, yrange: { max: number; min: number }): any[] {
   let i = 0

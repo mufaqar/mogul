@@ -5,11 +5,11 @@ import Image, { type StaticImageData } from 'next/image'
 import Link from 'next/link'
 import { Button, Card, CardBody, CardHeader, CardTitle, Col, Row } from 'react-bootstrap'
 
-import cardImg from '@/assets/images/small/img-1.jpg'
-import cardImg2 from '@/assets/images/small/img-2.jpg'
-import cardImg3 from '@/assets/images/small/img-3.jpg'
-import cardImg4 from '@/assets/images/small/img-4.jpg'
-import cardImg5 from '@/assets/images/small/img-5.jpg'
+import cardImg from '/public/assets/images/small/img-1.jpg'
+import cardImg2 from '/public/assets/images/small/img-2.jpg'
+import cardImg3 from '/public/assets/images/small/img-3.jpg'
+import cardImg4 from '/public/assets/images/small/img-4.jpg'
+import cardImg5 from '/public/assets/images/small/img-5.jpg'
 import PageTitle from '@/components/PageTitle'
 
 export const metadata: Metadata = { title: 'Cards' }

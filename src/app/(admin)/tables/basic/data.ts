@@ -1,8 +1,8 @@
-import avatar1 from '@/assets/images/users/avatar-1.jpg'
-import avatar2 from '@/assets/images/users/avatar-2.jpg'
-import avatar4 from '@/assets/images/users/avatar-4.jpg'
-import avatar6 from '@/assets/images/users/avatar-6.jpg'
-import avatar7 from '@/assets/images/users/avatar-7.jpg'
+import avatar1 from '/public/assets/images/users/avatar-1.jpg'
+import avatar2 from '/public/assets/images/users/avatar-2.jpg'
+import avatar4 from '/public/assets/images/users/avatar-4.jpg'
+import avatar6 from '/public/assets/images/users/avatar-6.jpg'
+import avatar7 from '/public/assets/images/users/avatar-7.jpg'
 import type { StaticImageData } from 'next/image'
 
 type BasicTableType = {

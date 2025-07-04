@@ -12,7 +12,7 @@ import dynamic from 'next/dynamic'
 import React from 'react'
 
 import Image from 'next/image'
-import logoDark from '@/assets/images/logo-light.png'
+import logoDark from '/public/assets/images/logo-light.png'
 import MailBox from './components/mailBox'
 
 const page = () => {

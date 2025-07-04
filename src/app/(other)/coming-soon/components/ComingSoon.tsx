@@ -1,5 +1,5 @@
 'use client'
-import logoDark from '@/assets/images/logo-dark.png'
+import logoDark from '/public/assets/images/logo-dark.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useEffect } from 'react'

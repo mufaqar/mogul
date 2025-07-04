@@ -1,4 +1,4 @@
-import propertiesImg from '@/assets/images/properties/p-12.jpg'
+import propertiesImg from '/public/assets/images/properties/p-12.jpg'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import Image from 'next/image'
 import { Card, CardBody, CardHeader, CardTitle, Col, Row } from 'react-bootstrap'

@@ -4,8 +4,8 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { Button, Col, Form, Row, Toast, ToastBody, ToastContainer, ToastHeader, type ToastContainerProps } from 'react-bootstrap'
 import ReactSelect from 'react-select'
-import logoDark from '@/assets/images/logo-dark.png'
-import logoLight from '@/assets/images/logo-light.png'
+import logoDark from '/public/assets/images/logo-dark.png'
+import logoLight from '/public/assets/images/logo-light.png'
 import ComponentContainerCard from '@/components/ComponentContainerCard'
 
 const BasicToast = () => {

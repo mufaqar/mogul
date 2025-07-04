@@ -1,8 +1,8 @@
 import { type ApexOptions } from 'apexcharts'
-import small1 from '@/assets/images/small/img-1.jpg'
-import small2 from '@/assets/images/small/img-2.jpg'
-import small3 from '@/assets/images/small/img-3.jpg'
-import small5 from '@/assets/images/small/img-5.jpg'
+import small1 from '/public/assets/images/small/img-1.jpg'
+import small2 from '/public/assets/images/small/img-2.jpg'
+import small3 from '/public/assets/images/small/img-3.jpg'
+import small5 from '/public/assets/images/small/img-5.jpg'
 
 const colors1 = ['#4697ce', '#7f56da', '#e06d94', '#f8ac59', '#7dcc93']
 

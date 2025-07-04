@@ -1,8 +1,8 @@
 import { StaticImageData } from 'next/image'
-import small1 from '@/assets/images/small/img-1.jpg'
-import small2 from '@/assets/images/small/img-2.jpg'
-import small3 from '@/assets/images/small/img-3.jpg'
-import small4 from '@/assets/images/small/img-4.jpg'
+import small1 from '/public/assets/images/small/img-1.jpg'
+import small2 from '/public/assets/images/small/img-2.jpg'
+import small3 from '/public/assets/images/small/img-3.jpg'
+import small4 from '/public/assets/images/small/img-4.jpg'
 
 export type EmailBodyImage = {
   image: StaticImageData

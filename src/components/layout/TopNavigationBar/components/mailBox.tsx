@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import icon from '@/assets/images/mailBox.svg';
+import icon from '/public/assets/images/mailBox.svg';
 import { Col } from 'react-bootstrap';
 import Link from 'next/link';
 

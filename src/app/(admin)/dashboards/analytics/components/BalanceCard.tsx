@@ -1,4 +1,4 @@
-import moneyImg from '@/assets/images/money.png'
+import moneyImg from '/public/assets/images/money.png'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import { currency } from '@/context/constants'
 import Image from 'next/image'

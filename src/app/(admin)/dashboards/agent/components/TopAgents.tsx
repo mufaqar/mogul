@@ -1,4 +1,4 @@
-import agent1Img from '@/assets/images/agent-1.png'
+import agent1Img from '/public/assets/images/agent-1.png'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import Image from 'next/image'
 import Link from 'next/link'

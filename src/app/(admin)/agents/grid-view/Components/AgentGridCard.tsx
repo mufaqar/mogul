@@ -1,5 +1,5 @@
 'use client'
-import homeImg from '@/assets/images/home-2.png'
+import homeImg from '/public/assets/images/home-2.png'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import { ApexOptions } from 'apexcharts'
 import Image from 'next/image'

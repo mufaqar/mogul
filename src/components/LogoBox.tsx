@@ -1,6 +1,6 @@
-import logoDark from '@/assets/images/logo-dark.png'
-import logoLight from '@/assets/images/logo-light.png'
-import logoSm from '@/assets/images/logo-sm.png'
+import logoDark from '/public/assets/images/logo-dark.png'
+import logoLight from '/public/assets/images/logo-light.png'
+import logoSm from '/public/assets/images/logo-sm.png'
 import Image from 'next/image'
 import Link from 'next/link'
 

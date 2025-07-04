@@ -1,5 +1,5 @@
-import blogImg from '@/assets/images/blog/blog.jpg'
-import avatar6 from '@/assets/images/users/avatar-6.jpg'
+import blogImg from '/public/assets/images/blog/blog.jpg'
+import avatar6 from '/public/assets/images/users/avatar-6.jpg'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import Image from 'next/image'
 import Link from 'next/link'

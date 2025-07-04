@@ -1,5 +1,5 @@
-import logoDark from '@/assets/images/logo-dark.png'
-import logoLight from '@/assets/images/logo-light.png'
+import logoDark from '/public/assets/images/logo-dark.png'
+import logoLight from '/public/assets/images/logo-light.png'
 import PageTitle from '@/components/PageTitle'
 import { currency } from '@/context/constants'
 import { Metadata } from 'next'

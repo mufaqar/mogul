@@ -1,5 +1,5 @@
 'use client'
-import avatar1 from '@/assets/images/users/avatar-1.jpg'
+import avatar1 from '/public/assets/images/users/avatar-1.jpg'
 import TextAreaFormInput from '@/components/from/TextAreaFormInput'
 import TextFormInput from '@/components/from/TextFormInput'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'

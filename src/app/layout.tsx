@@ -1,4 +1,4 @@
-import logoDark from '@/assets/images/logo-dark.png'
+import logoDark from '/public/assets/images/logo-dark.png'
 import AppProvidersWrapper from '@/components/wrappers/AppProvidersWrapper'
 import type { Metadata } from 'next'
 import { Figtree } from 'next/font/google'

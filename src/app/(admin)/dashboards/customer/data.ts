@@ -1,7 +1,7 @@
-import flagBrImg from '@/assets/images/flag/br.svg'
-import flagCaImg from '@/assets/images/flag/ca.svg'
-import flagRuImg from '@/assets/images/flag/ru.svg'
-import flagUsImg from '@/assets/images/flag/us.svg'
+import flagBrImg from '/public/assets/images/flag/br.svg'
+import flagCaImg from '/public/assets/images/flag/ca.svg'
+import flagRuImg from '/public/assets/images/flag/ru.svg'
+import flagUsImg from '/public/assets/images/flag/us.svg'
 import { ApexOptions } from 'apexcharts'
 import { StaticImageData } from 'next/image'
 

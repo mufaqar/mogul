@@ -1,5 +1,5 @@
-import avatar1 from '@/assets/images/users/avatar-1.jpg'
-import avatar3 from '@/assets/images/users/avatar-3.jpg'
+import avatar1 from '/public/assets/images/users/avatar-1.jpg'
+import avatar3 from '/public/assets/images/users/avatar-3.jpg'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import SimplebarReactClient from '@/components/wrappers/SimplebarReactClient'
 import { useEmailContext } from '@/context/useEmailContext'

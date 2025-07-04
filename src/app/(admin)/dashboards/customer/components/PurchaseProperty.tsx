@@ -1,5 +1,5 @@
-import propertiesImg from '@/assets/images/properties/p-10.jpg'
-import avatar6 from '@/assets/images/users/avatar-6.jpg'
+import propertiesImg from '/public/assets/images/properties/p-10.jpg'
+import avatar6 from '/public/assets/images/users/avatar-6.jpg'
 import IconifyIcon from '@/components/wrappers/IconifyIcon'
 import { currency } from '@/context/constants'
 import Image from 'next/image'
