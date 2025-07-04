@@ -201,7 +201,7 @@ const PropertyAdd = () => {
           <Row className="justify-content-end g-2">
             <Col lg={2}>
               <Button variant="outline-primary" type="submit" className="w-100">
-                Create Product
+                Create Property
               </Button>
             </Col>
             <Col lg={2}>

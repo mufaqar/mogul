@@ -12,8 +12,8 @@ const PropertyAddPage = () => {
     <>
       <PageTitle title="Add Property" subName="Real Estate" />
       <Row>
-        <PropertyAddCard />
-        <Col xl={9} lg={8}>
+        {/* <PropertyAddCard /> */}
+        <Col xl={12} lg={8}>
           <FileUpload title="Add Property Photo" />
           <PropertyAdd />
         </Col>

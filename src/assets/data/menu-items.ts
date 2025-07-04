@@ -41,7 +41,7 @@ export const MENU_ITEMS: MenuItemType[] = [
       {
         key: 'Add Unit',
         label: 'Add Unit',
-        url: '/dashboards/analytics',
+        url: '/property/add',
         parentKey: 'dashboards',
       },
       {
