@@ -53,10 +53,10 @@ function MainHeader() {
           <Nav as="ul" className="align-items-center">
             {/* Navigation links */}
             <Nav.Item as="li">
-              <Nav.Link href="/tenants" className="px-3 fw-bold text-white">Tenants</Nav.Link>
+              <Nav.Link href="/" className="px-3 fw-bold text-white">Tenants</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Nav.Link href="/tentals" className="px-3 fw-bold text-white">Rentals</Nav.Link>
+              <Nav.Link href="/rentals" className="px-3 fw-bold text-white">Rentals</Nav.Link>
             </Nav.Item>
             <Nav.Item as="li">
               <Nav.Link href="/landlords" className="px-3 fw-bold text-white">Landlords</Nav.Link>
