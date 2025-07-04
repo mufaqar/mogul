@@ -10,7 +10,7 @@ export const metadata: Metadata = { title: 'Add Property' }
 const PropertyAddPage = () => {
   return (
     <>
-      <PageTitle title="Add Property" subName="Real Estate" />
+      <PageTitle title="Add Unit" subName="Real Estate" />
       <Row>
         {/* <PropertyAddCard /> */}
         <Col xl={12} lg={8}>
