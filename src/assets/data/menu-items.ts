@@ -47,7 +47,7 @@ export const MENU_ITEMS: MenuItemType[] = [
       {
         key: 'View Units',
         label: 'View Units',
-        url: '/dashboards/agent',
+        url: '/property/details',
         parentKey: 'dashboards',
       },
     ],

@@ -1,5 +1,5 @@
-import PropertiesData from '@/app/(admin)/property/grid/components/PropertiesData'
-import PropertiesFilter from '@/app/(admin)/property/grid/components/PropertiesFilter'
+// import PropertiesData from '@/app/(admin)/property/grid/components/PropertiesData'
+// import PropertiesFilter from '@/app/(admin)/property/grid/components/PropertiesFilter'
 import PageTitle from '@/components/PageTitle'
 import MainFooter from '@/components/theme/MainFooter'
 import MainHeader from '@/components/theme/MainHeader'
@@ -8,16 +8,14 @@ import { Container, Row } from 'react-bootstrap'
 
 function page() {
   return (
-    <div className=''>
-
+    <div className="">
       <MainHeader />
-      <Container>        
+      <Container>
         <Row>
-          <PageTitle title="Landloards" subName="Home"  />
-         
+          <PageTitle title="Landloards" subName="Home" />
         </Row>
       </Container>
-      <MainFooter/>
+      <MainFooter />
     </div>
   )
 }
