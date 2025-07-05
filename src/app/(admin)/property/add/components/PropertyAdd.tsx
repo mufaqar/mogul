@@ -12,6 +12,8 @@ import * as yup from 'yup'
 const PropertyAdd = () => {
   const messageSchema = yup.object({
     name: yup.string().required('Please enter name'),
+    property_bedroom: yup.string().required('Please enter property_bedroom'),
+     bathroom: yup.string().required('Please enter property_bedroom'),
     description: yup.string().required('Please enter description'),
     zipCode: yup.string().required('Please enter Zip-Code'),
   })
@@ -41,25 +43,25 @@ const PropertyAdd = () => {
                 </ChoicesFormInput>
               </Col>
               <Col lg={4}>
-                <label htmlFor="property-bedroom" className="form-label">
+                <label htmlFor="property_bedroom" className="form-label">
                   Bedroom
                 </label>
                 <div className="input-group mb-3">
                   <span className="input-group-text fs-20">
                     <IconifyIcon icon="solar:bed-broken" className="align-middle" />
                   </span>
-                  <input type="number" id="property-bedroom" className="form-control" />
+                  <input type="number" id="property_bedroom" className="form-control" />
                 </div>
               </Col>
               <Col lg={4}>
-                <label htmlFor="property-bathroom" className="form-label">
+                <label htmlFor="bathroom" className="form-label">
                   Bathroom
                 </label>
                 <div className="input-group mb-3">
                   <span className="input-group-text fs-20">
                     <IconifyIcon icon="solar:bath-broken" className="align-middle" />
                   </span>
-                  <input type="number" id="property-bathroom" className="form-control" />
+                  <input type="number" id="bathroom" className="form-control" />
                 </div>
               </Col>
               <Col lg={4}>
