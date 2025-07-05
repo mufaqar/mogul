@@ -65,6 +65,56 @@ export const MENU_ITEMS: MenuItemType[] = [
     url: '/pages/lease',
     icon: 'ri:dashboard-2-line',
     parentKey: 'pages',
+    children: [
+      {
+        key: 'Lease Term',
+        label: 'Lease Term',
+        url: '/property/add',
+        parentKey: 'dashboards',
+      },
+      {
+        key: 'Rent, Deposit & Fees',
+        label: 'Rent, Deposit & Fees',
+        url: '/property/details',
+        parentKey: 'dashboards',
+      },
+      {
+        key: 'Options',
+        label: 'Options',
+        url: '/property/details',
+        parentKey: 'dashboards',
+      },
+      {
+        key: 'Clauses & Rules',
+        label: 'Clauses & Rules',
+        url: '/property/details',
+        parentKey: 'dashboards',
+      },
+      {
+        key: 'Disclosures',
+        label: 'Disclosures',
+        url: '/property/details',
+        parentKey: 'dashboards',
+      },
+      {
+        key: 'Attachments',
+        label: 'Attachments',
+        url: '/property/details',
+        parentKey: 'dashboards',
+      },
+      {
+        key: 'Lassors Info',
+        label: 'Lassors Info',
+        url: '/property/details',
+        parentKey: 'dashboards',
+      },
+      {
+        key: 'Terms Agreement',
+        label: 'Terms Agreement',
+        url: '/property/details',
+        parentKey: 'dashboards',
+      },
+    ],
   },
   {
     key: 'Maintenance',
