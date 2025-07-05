@@ -29,11 +29,6 @@ const PropertyAdd = () => {
           <CardBody>
             <Row>
               <Col lg={4}>
-                <div className="mb-3">
-                  <TextFormInput control={control} name="name" placeholder="Name" label="Property Name" />
-                </div>
-              </Col>
-              <Col lg={4}>
                 <label htmlFor="property-categories" className="form-label">
                   Parking Type
                 </label>
@@ -135,7 +130,6 @@ const PropertyAdd = () => {
                 </div>
               </Col>
 
-             
               <Col lg={12}>
                 <div className="mb-3">
                   <TextAreaFormInput
@@ -217,15 +211,84 @@ const PropertyAdd = () => {
                 </ChoicesFormInput>
               </Col>
 
-               <Col lg={4}>
+              <Col lg={4}>
                 <ComponentContainerCard id="inline-radio" title="Pets" titleClass="mb-3">
                   <FormCheck type="radio" name="radio2" label="No Pets Allowed" id="flexRadioDefault3" inline />
                   <FormCheck type="radio" name="radio2" label="Pets Allowed" id="flexRadioDefault4" inline />
                 </ComponentContainerCard>
               </Col>
+              <Row>
+                <Col lg={12}>
+                  <label htmlFor="property-square-foot" className="form-label my-2">
+                    Select Amenity
+                  </label>
+                  <ChoicesFormInput options={{ removeItemButton: true }} multiple>
+                    <option value="Wheelchair Accessible">Wheelchair Accessible</option>
+                    <option value="Balcony">Balcony</option>
+                    <option value="Central Air">Central Air</option>
+                    <option value="Central Heat">Central Heat</option>
+                    <option value="Deck">Deck</option>
+                    <option value="Dishwasher">Dishwasher</option>
+                    <option value="Hardwood Floors">Hardwood Floors</option>
+                    <option value="Pool">Pool</option>
+                    <option value="Stainless Steel Appliance">Stainless Steel Appliance</option>
+                    <option value="In-Unit Laundry">In-Unit Laundry</option>
+                    <option value="Yard">Yard</option>
+                    <option value="Add Amenity">Add Amenity</option>
+                  </ChoicesFormInput>
+                </Col>
+              </Row>
+              <Row>
+                <Col lg={12}>
+                  <label htmlFor="property-square-foot" className="form-label  my-2">
+                    Select Utility
+                  </label>
+                  <ChoicesFormInput options={{ removeItemButton: true }} multiple>
+                    <option value="A/C">A/C</option>
+                    <option value="Cable">Cable</option>
+                    <option value="Electricity">Electricity</option>
+                    <option value="Gas">Gas</option>
+                    <option value="Heat">Heat</option>
+                    <option value="Internet">Internet</option>
+                  </ChoicesFormInput>
+                </Col>
+              </Row>
+            </Row>
+
+            <Row className="mt-3">
+              <Col lg={6}>
+                <div className="mb-3">
+                  <TextFormInput control={control} name="name" placeholder="Test Tanant" label="Display Name" />
+                </div>
+              </Col>
+              <Col lg={6}>
+                <div className="mb-3">
+                  <TextFormInput control={control} name="name" placeholder="(415) 340-2545" label="Display  Phone" />
+                </div>
+              </Col>
+              <Col lg={12}>
+                <div className="mb-3">
+                  <TextFormInput control={control} name="name" placeholder="Name" label="Title" />
+                </div>
+              </Col>
+              <Col lg={12}>
+                <div className="mb-3">
+                  <TextAreaFormInput
+                    control={control}
+                    name="description"
+                    type="text"
+                    label="Property Address"
+                    className="form-control"
+                    id="schedule-textarea"
+                    rows={3}
+                    placeholder="Enter address"
+                  />
+                </div>
+              </Col>
             </Row>
           </CardBody>
         </Card>
+
         <div className="mb-3 rounded">
           <Row className="justify-content-end g-2">
             <Col lg={2}>
